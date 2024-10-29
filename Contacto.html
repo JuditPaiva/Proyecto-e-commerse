@@ -12,8 +12,8 @@
 <body>
     <header>
         <nav>
-            <figure>
-                <img src="/img/Plántula-naranja.png" width="100" alt="Logo">
+            <figure >
+                <img class="logo" src="/img/Plántula-naranja.png" width="100" alt="Logo">
             </figure>
             <ul>
                 <li>
@@ -39,9 +39,10 @@
         </nav>
     </header>
     <main>
-        <form action="" class="form-contacto">
+        <form action="https://formsubmit.co/juditpaivait@gmail.com" class="form-contacto" method="POST">
 
             <h2 class="titulo-contacto">Contacto</h2>
+        
             <h3 class="titulo-datos">Datos personales</h3>
 
             <div class="input-form1">
@@ -60,12 +61,16 @@
             </div>
 
 
+
+
             <h3 class="titulo-textarea">Comentario</h3>
 
-            
+            <div class="textarea">
                 <label for="textarea"></label>
-                <textarea name="textarea" id="textarea" placeholder="  Deja aqui tu comentario "></textarea>
-        
+                <textarea name="textarea" id="textarea" placeholder="Deja aqui tu comentario "></textarea>
+            </div>
+
+
 
             <button class="boton-form" type="submit">Enviar</button>
         </form>
